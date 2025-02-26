@@ -8,17 +8,33 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 303426912290623041, guid: 89e3e05ef1100b448a53a92b09b9d407, type: 3}
+      propertyPath: TrailModule.ratio
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 303426912290623041, guid: 89e3e05ef1100b448a53a92b09b9d407, type: 3}
+      propertyPath: TrailModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 303426912290623041, guid: 89e3e05ef1100b448a53a92b09b9d407, type: 3}
+      propertyPath: TrailModule.lifetime.scalar
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 303426912290623041, guid: 89e3e05ef1100b448a53a92b09b9d407, type: 3}
+      propertyPath: TrailModule.widthOverTrail.scalar
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 4800422368860481843, guid: 89e3e05ef1100b448a53a92b09b9d407, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 225.15881
       objectReference: {fileID: 0}
     - target: {fileID: 4800422368860481843, guid: 89e3e05ef1100b448a53a92b09b9d407, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 8.8
       objectReference: {fileID: 0}
     - target: {fileID: 4800422368860481843, guid: 89e3e05ef1100b448a53a92b09b9d407, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -334.37006
       objectReference: {fileID: 0}
     - target: {fileID: 4800422368860481843, guid: 89e3e05ef1100b448a53a92b09b9d407, type: 3}
       propertyPath: m_LocalRotation.w
@@ -50,8 +66,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7702189643044591828, guid: 89e3e05ef1100b448a53a92b09b9d407, type: 3}
       propertyPath: m_Name
-      value: BaseDestroyedVFX
+      value: EnemyDestroyedVFX Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 9006568782174777611, guid: 89e3e05ef1100b448a53a92b09b9d407, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9006568782174777611, guid: 89e3e05ef1100b448a53a92b09b9d407, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c69b8f1b87e593342be6ec01bd14ccd2, type: 2}
+    - target: {fileID: 9006568782174777611, guid: 89e3e05ef1100b448a53a92b09b9d407, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 0f5a2a622644d2a4a93468c1fc3168af, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
